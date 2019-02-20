@@ -16,3 +16,4 @@ I have used <a href="https://tachyons.io/resources/"> Tachyons</a>, a components
 powered by Tachyons with a styled-components like API tachyons-sass
 
 <h4> Work in progress.......... </h4>
+<li> Plans to add a few functions for the robots to perform. </li>
