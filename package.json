@@ -4,13 +4,13 @@
   "private": true,
   "homepage": "https://tydotbaba.github.io/React-Robot-Friends",
   "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-redux": "^6.0.0",
-    "react-scripts": "2.1.3",
-    "redux": "^4.0.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-scripts": "5.0.1",
+    "redux": "^5.0.1",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0",
+    "redux-thunk": "^3.1.0",
     "tachyons": "^4.11.1"
   },
   "scripts": {
@@ -31,6 +31,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1"
-  }
+    "gh-pages": "^6.3.0"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:Tydotbaba/React-Robot-Friends.git",
+  "author": "Temitayo <oyes2011@gmail.com>",
+  "license": "MIT"
 }

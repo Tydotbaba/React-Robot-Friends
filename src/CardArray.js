@@ -3,7 +3,7 @@ import Card from './Card'
 
 
 const CardArray = ({robots}) => {
-	const cardComponent = robots.map((user, i) => {
+	const CardArray= robots.map((user, i) => {
 		return (
 			<Card 
 				key ={i}
@@ -15,7 +15,7 @@ const CardArray = ({robots}) => {
 	});
 	return (
 		<div>
-			{cardComponent}
+			{ CardArray }
 		</div>
 	);
 }

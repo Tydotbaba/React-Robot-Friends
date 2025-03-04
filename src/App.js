@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import CardArray from './CardArray';
 import Header from './Header';
@@ -60,7 +59,6 @@ class App extends Component {
     return isPending ? 
       <h1 className='tc ma5'> Loading, please wait! </h1>:
       <div className='tc'>
-          <img width={200} height={150} className='fl' src={logo} alt='logo' />
           <Header />
           <SearchBox searchChange={onSearchChange}/>
           <ErrorBoundry error={error}>
